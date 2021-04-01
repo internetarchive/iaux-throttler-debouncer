@@ -18,10 +18,7 @@ jobs:
     
     - name: Install dependencies 
       run: yarn install
-
-    - name: Format code
-      run: yarn run format
-
+      
     - name: Run tests
       run: yarn run test
     
