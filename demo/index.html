@@ -17,23 +17,7 @@
 <body>
   <app-root></app-root>
 
-  <script type="module">
-    import { html, render } from 'lit-html';
-    // eslint-disable-next-line import/extensions
-    import '../dist/index.js';
-
-    const title = 'Hello owc World!';
-    render(
-      html`
-        <your-webcomponent .title=${title}>
-          <div slot="my-slot">
-            Some lightDOM slotted content
-          </div>
-        </your-webcomponent>
-      `,
-      document.querySelector('#demo')
-    );
-  </script>
+  <script type="module" src="../dist/demo/app-root.js"></script>
 </body>
 
 </html>
