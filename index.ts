@@ -1,1 +1,2 @@
-export { YourWebComponent } from './src/your-webcomponent';
+export { Debouncer } from './src/debouncer';
+export { Throttler } from './src/throttler';

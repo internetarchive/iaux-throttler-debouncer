@@ -13,23 +13,10 @@
   </style>
 </head>
 <body>
-  <div id="demo"></div>
+  <app-root></app-root>
 
   <script type="module">
-    import { html, render } from 'lit-html';
-      import '../dist/index.js';
-
-    const title = 'Hello owc World!';
-    render(
-      html`
-        <your-webcomponent .title=${title}>
-          <div slot="my-slot">
-            Some lightDOM slotted content
-          </div>
-        </your-webcomponent>
-      `,
-      document.querySelector('#demo')
-    );
+    import '../dist/demo/app-root'
   </script>
 </body>
 </html>
